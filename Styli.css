@@ -1,1 +1,139 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #191920;
+    padding: 40px 0;
+    border-bottom: 3px solid #ff4a5a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #8d8d99;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Post de Blog */
+.post {
+    background-color: #191920;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #29293e;
+    margin-bottom: 40px;
+}
+
+.post h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post h3 {
+    color: #ff4a5a;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #8d8d99;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #ff4a5a;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #c4c4cc;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #c4c4cc;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+blockquote {
+    background-color: #121214;
+    border-left: 4px solid #ff4a5a;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #e1e1e6;
+}
+
+/* Botão de Curtir */
+.btn {
+    background-color: #ff4a5a;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #e03e4d;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #7c7c8a;
+    font-size: 0.9rem;
+    border-top: 1px solid #29293e;
+    margin-top: 60px;
+}
