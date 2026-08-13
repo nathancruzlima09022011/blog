@@ -16,11 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
         
         // Salva o novo valor no navegador do usuário
         localStorage.setItem("blogLikes", totalLikes);
-
-        // Efeito visual rápido de clique
-        likeBtn.style.transform = "scale(0.95)";
-        setTimeout(() => {
-            likeBtn.style.transform = "scale(1)";
-        }, 100);
     });
 });
